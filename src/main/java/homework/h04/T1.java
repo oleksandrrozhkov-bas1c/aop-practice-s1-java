@@ -3,8 +3,17 @@ package homework.h04;
 // base
 // https://leetcode.com/problems/plus-one/
 public class T1 {
+    class Solution {
         public int hammingDistance(int x, int y) {
-            int differentBits = x ^ y;
-            return Integer.bitCount(differentBits);
+            int xor = x ^ y;
+            int count = 0;
+
+            while (xor != 0) {
+                count += xor & 1;
+                xor >>= 1;
+            }
+
+            return count;
         }
+    }
     }

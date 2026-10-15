@@ -1,19 +1,15 @@
 package homework.h04;
 
 // advanced
-// https://leetcode.com/problems/integer-to-roman/
+// https://leetcode.com/problems/number-complement/
 public class T2 {
     class Solution {
         public int findComplement(int num) {
-            int mask = 0;
-            int temp = num;
+            int mask = Integer.highestOneBit(num);
 
-            while (temp > 0) {
-                mask = (mask << 1) | 1;
-                temp = temp >> 1;
-            }
+            mask = (mask << 1) - 1;
 
             return num ^ mask;
         }
     }
-}
+    }
