@@ -1,7 +1,7 @@
 package homework.h05;
 
 // advanced
-// https://leetcode.com/problems/rotate-image/
+// https://leetcode.com/problems/squares-of-a-sorted-array/description/
 public class T2 {
     class Solution {
         public int[] sortedSquares(int[] nums) {

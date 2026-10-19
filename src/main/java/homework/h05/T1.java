@@ -1,7 +1,7 @@
 package homework.h05;
 
 // base
-// https://leetcode.com/problems/longest-common-prefix/
+// https://leetcode.com/problems/maximum-product-difference-between-two-pairs/description//
 public class T1 {
     class Solution {
         public int maxProductDifference(int[] nums) {

@@ -1,7 +1,7 @@
 package homework.h02;
 
 // LeetCode 2119. A Number After a Double Reversal
-// https://leetcode.com/problems/a-number-after-a-double-reversal/
+// https://leetcode.com/problems/a-number-after-a-double-reversal/description/
 public class T2 {
 
     public static boolean isSameAfterReversals(int num) {
