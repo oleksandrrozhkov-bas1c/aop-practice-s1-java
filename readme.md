@@ -10,4 +10,4 @@
 Репозиторій клоновано в IntelliJ IDEA через SSH.
 Перевірка програми
 Команда: java src/Main.java
-Результат: Hello, World!![hello-world.png](../../Desktop/hello-world.png)
+Результат: Hello, World!]![hello-world.png](extra/screenshots/p0/hello-world.png)
