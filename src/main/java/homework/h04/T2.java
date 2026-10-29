@@ -12,4 +12,4 @@ public class T2 {
             return num ^ mask;
         }
     }
-    }
+}

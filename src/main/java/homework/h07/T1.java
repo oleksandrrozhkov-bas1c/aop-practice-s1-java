@@ -1,4 +1,3 @@
-
 package homework.h07;
 
 import java.util.ArrayList;

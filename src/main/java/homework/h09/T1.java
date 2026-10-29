@@ -1,4 +1,3 @@
-
 package homework.h09;
 
 // https://leetcode.com/problems/number-of-good-pairs/
