@@ -11,3 +11,7 @@
 Перевірка програми
 Команда: java src/Main.java
 Результат: Hello, World!]![hello-world.png](extra/screenshots/p0/hello-world.png)
+
+## Як запустити
+
+Встановіть JDK 25 і Maven. У корені проєкту виконайте `mvn test`.
