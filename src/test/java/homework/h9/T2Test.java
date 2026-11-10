@@ -1,8 +1,9 @@
-
 package homework.h09;
 
 import org.junit.jupiter.api.Test;
+
 import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class T2Test {

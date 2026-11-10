@@ -1,6 +1,7 @@
 package homework.h03;
 
 //https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/description/
+
 public class T1 {
 
     public double average(int[] salary) {

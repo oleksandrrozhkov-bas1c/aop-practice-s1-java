@@ -1,7 +1,7 @@
-
 package homework.h12;
 
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class T2Test {
