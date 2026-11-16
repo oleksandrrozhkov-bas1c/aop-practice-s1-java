@@ -10,4 +10,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: echo "перевірка запустилася"
-      - run: test -f readme.md
+      - run: test -f NOTHING.md
