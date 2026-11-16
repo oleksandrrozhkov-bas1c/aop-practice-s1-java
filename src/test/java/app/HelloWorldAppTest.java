@@ -1,4 +1,3 @@
 package app;
 
-class HelloWorldAppTest {
-}
+class HelloWorldAppTest {}

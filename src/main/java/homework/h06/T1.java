@@ -1,29 +1,29 @@
 package homework.h06;
 
 // base
-//https://leetcode.com/problems/valid-anagram//
+// https://leetcode.com/problems/valid-anagram//
 public class T1 {
-    class Solution {
-        public boolean isAnagram(String s, String t) {
+  class Solution {
+    public boolean isAnagram(String s, String t) {
 
-            if (s.length() != t.length()) {
-                return false;
-            }
+      if (s.length() != t.length()) {
+        return false;
+      }
 
-            int[] letters = new int[26];
+      int[] letters = new int[26];
 
-            for (int i = 0; i < s.length(); i++) {
-                letters[s.charAt(i) - 'a']++;
-                letters[t.charAt(i) - 'a']--;
-            }
+      for (int i = 0; i < s.length(); i++) {
+        letters[s.charAt(i) - 'a']++;
+        letters[t.charAt(i) - 'a']--;
+      }
 
-            for (int count : letters) {
-                if (count != 0) {
-                    return false;
-                }
-            }
-
-            return true;
+      for (int count : letters) {
+        if (count != 0) {
+          return false;
         }
+      }
+
+      return true;
     }
+  }
 }

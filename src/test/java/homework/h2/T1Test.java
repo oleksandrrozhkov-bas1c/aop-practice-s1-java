@@ -1,34 +1,34 @@
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
 
 class T1Test {
 
-    @Test
-    void testExample() {
-        Solution solution = new Solution();
+  @Test
+  void testExample() {
+    Solution solution = new Solution();
 
-        assertEquals(2, solution.addDigits(38));
-    }
+    assertEquals(2, solution.addDigits(38));
+  }
 
-    @Test
-    void testZero() {
-        Solution solution = new Solution();
+  @Test
+  void testZero() {
+    Solution solution = new Solution();
 
-        assertEquals(0, solution.addDigits(0));
-    }
+    assertEquals(0, solution.addDigits(0));
+  }
 
-    @Test
-    void testSingleDigit() {
-        Solution solution = new Solution();
+  @Test
+  void testSingleDigit() {
+    Solution solution = new Solution();
 
-        assertEquals(7, solution.addDigits(7));
-    }
+    assertEquals(7, solution.addDigits(7));
+  }
 
-    @Test
-    void testLargeNumber() {
-        Solution solution = new Solution();
+  @Test
+  void testLargeNumber() {
+    Solution solution = new Solution();
 
-        assertEquals(9, solution.addDigits(9999));
-    }
+    assertEquals(9, solution.addDigits(9999));
+  }
 }
